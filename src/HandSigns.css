@@ -1,0 +1,66 @@
+:root
+{
+    --color-primary: #1b1b32;
+    --color-secondary: #0a0a23;
+}
+.HandSigns
+{
+    color: white;
+    text-align: center;
+    width: 50%;
+    max-width: 800px;
+    min-width: 500px;
+    margin: auto;
+    background-color: var(--color-primary);
+    border-radius: 10px;
+}
+
+.heading
+{
+    padding-top: 20px;
+    margin-top: 200px;
+}
+.signs--list
+{
+    padding: 20px 20px;
+    width: 100%;
+    cursor: pointer;
+    width: 500px;
+    height: 40px;
+    margin: auto;
+}
+.input--keys
+{
+
+    border: 1px solid burlywood;
+    background-color: var(--color-secondary);
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    max-width: 800px;
+    min-width: 400px;
+    height: 40px; 
+}
+
+.desc
+{
+    font-size: 16px;
+    font-weight: 600;
+}
+.meaning--output
+{
+    color: burlywood;
+    font-size: 20px;
+    font-weight: 800px;
+    margin-bottom: 0;
+}
+.list--each
+{
+
+    font-size: 30px;
+    margin-top: 0;
+    padding: 0px 5px;
+}
