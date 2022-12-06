@@ -23,6 +23,12 @@ export default function HandSigns()
   {
     const userInput = event.target.value;
     setMeaning(Hands[userInput]);
+
+    if (userInput in Hands) {
+      setMeaning(Hands[userInput]);
+    } else {
+      setMeaning("failure to recognise this emoji");
+    }
   }
   function clickHandler(items)
   {
